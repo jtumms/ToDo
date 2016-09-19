@@ -53,7 +53,8 @@ public class Main {
                                 checkbox = "[x]";
                             }
 
-                            System.out.println(checkbox + " " + num + ". " + item3.text);
+//                            System.out.println(checkbox + " " + num + ". " + item3.text);
+                            System.out.printf("%s %s", checkbox, num, item3.text);
 
                         }
                         break;
